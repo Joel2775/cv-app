@@ -16,6 +16,17 @@ This is an [Expo](https://expo.dev) project created with [`create-expo-app`](htt
    npx expo start
    ```
 
+## Funciones del CV
+
+- En **Foto de perfil** puedes elegir una imagen de la galería o tomar una foto
+  con la cámara. La aplicación solicitará permiso para usar la cámara cuando
+  intentes tomar una foto.
+- En **Habilidades** puedes agregar o quitar habilidades blandas y técnicas;
+  ambas listas aparecen en la vista previa del CV.
+- La foto y las habilidades se conservan en el estado actual de la aplicación,
+  igual que el resto de los datos del CV; no se suben a un servidor ni se
+  guardan después de cerrar la aplicación.
+
 In the output, you'll find options to open the app in a
 
 - [development build](https://docs.expo.dev/develop/development-builds/introduction/)
